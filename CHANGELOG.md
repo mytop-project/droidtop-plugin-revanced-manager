@@ -11,7 +11,7 @@ under Unreleased.
 ### Added
 
 - The plugin plan, rewritten so plugins run in droidtop's own context (2026-09-25), the licence note and the daily upstream sync (2026-09-25).
-- A commit-hygiene check and the upstream sync, both called from the shared workflows in `Droidtop/droidtop-platforms`.
+- A commit-hygiene check and the upstream sync, both called from the shared workflows in `mytop-project/droidtop-platforms`.
 
 ### Changed
 

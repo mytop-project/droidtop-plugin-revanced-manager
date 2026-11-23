@@ -17,7 +17,7 @@
   <a href="#upstream-readme">Upstream README</a>
 </p>
 
-This is a fork of [ReVanced Manager](https://github.com/ReVanced/revanced-manager). The [droidtop](https://github.com/Droidtop/droidtop) plugin does not exist yet. [PLUGIN-PLAN.md](PLUGIN-PLAN.md) describes what it would be.
+This is a fork of [ReVanced Manager](https://github.com/ReVanced/revanced-manager). The [droidtop](https://github.com/mytop-project/droidtop) plugin does not exist yet. [PLUGIN-PLAN.md](PLUGIN-PLAN.md) describes what it would be.
 
 ## What the droidtop plugin does
 
@@ -178,6 +178,6 @@ needed. That's our standard operation." This repository is a fork, so it has thr
   that moves the line's pin on `plugin-core`.
 - **`plugin/stable`** is the release branch: the upstream commit `plugin-core` pins, with `plugin-core` written over
   it. It is generated, never edited: `python3 tools/plugin_line.py compose stable --commit` from
-  Droidtop/droidtop-platforms. `.github/workflows/plugin-line.yml` fails when it differs from that composition.
+  mytop-project/droidtop-platforms. `.github/workflows/plugin-line.yml` fails when it differs from that composition.
 
 There is no `main` or `master`.
